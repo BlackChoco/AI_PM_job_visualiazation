@@ -1,6 +1,16 @@
-AI产品经理实习岗位职责和岗位需求的爬虫项目：
+AI产品经理实习岗位职责和岗位需求的可视化项目： 
 
-！！！在运行job_analysis.ipynb时   
+processed_job_details.csv：职位数据   
+job_analysis.ipynb：用于可视化的jupyter脚本   
+requirements.txt：必要安装的库   
+
+可视化结果：   
+description_visual.html：岗位职责的3D可视化   
+descriptions_triple_graph.png：岗位职责的实体图可视化   
+requirement_visual.html：岗位需求的3D可视化   
+requirements_triple_graph.png：岗位需求的实体图可视化   
+
+！！！运行job_analysis.ipynb时   
 1.安装requirements.txt中必要的库   
 2.另外配置.env文件，使用阿里云百炼平台，内容包括：   
 API_KEY= "your_api_key（填写你的apikey）"   
