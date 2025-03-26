@@ -1,12 +1,12 @@
 AI产品经理实习岗位职责和岗位需求的爬虫项目：
 
-！！！在运行job_analysis.ipynb时
-1.安装requirements.txt中必要的库
-2.另外配置.env文件，使用阿里云百炼平台，内容包括：
-API_KEY= "your_api_key（填写你的apikey）"
-BASE_URL= https://dashscope.aliyuncs.com/compatible-mode/v1
-MODEL_NAME= "model_name（填写你使用的model名字）"
-
+！！！在运行job_analysis.ipynb时   
+1.安装requirements.txt中必要的库   
+2.另外配置.env文件，使用阿里云百炼平台，内容包括：   
+API_KEY= "your_api_key（填写你的apikey）"   
+BASE_URL= https://dashscope.aliyuncs.com/compatible-mode/v1   
+MODEL_NAME= "model_name（填写你使用的model名字）"   
+3.使用huggingface的jina_embeddingv3进行embed，所以需要梯来下载模型
 
 目标公司：
 1.美团（已爬）
@@ -22,7 +22,7 @@ MODEL_NAME= "model_name（填写你使用的model名字）"
 11.小米（已爬）
 
 
-分析思路：
-1.将所有requirement和description通过embedmodel进行聚类
-2.将实体以及实体关系提取出来，并进行graph的可视化
+分析思路：   
+1.将所有requirement和description通过embedmodel进行聚类   
+2.将实体以及实体关系提取出来，并进行graph的可视化   
 
