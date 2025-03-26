@@ -1,15 +1,16 @@
+dotenv
 json
 matplotlib
 mpl_toolkits
 networkx
 numpy
 openai
+os
 pandas
 plotly
 pprint
 re
 sklearn
 torch
-tqdm
 transformers
 umap
